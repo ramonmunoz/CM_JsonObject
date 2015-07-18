@@ -40,6 +40,7 @@
 		D19A6C181B5A9B0D00A0C88A /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A6C171B5A9B0D00A0C88A /* OCMapperConfig.m */; };
 		D19A6C1B1B5A9E4700A0C88A /* WeatherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A6C1A1B5A9E4700A0C88A /* WeatherObject.m */; };
 		D19A6C1E1B5A9E7100A0C88A /* Coord.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A6C1D1B5A9E7100A0C88A /* Coord.m */; };
+		D19A6C211B5AA49300A0C88A /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A6C201B5AA49300A0C88A /* MainObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		D19A6C1A1B5A9E4700A0C88A /* WeatherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherObject.m; sourceTree = "<group>"; };
 		D19A6C1C1B5A9E7100A0C88A /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
 		D19A6C1D1B5A9E7100A0C88A /* Coord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coord.m; sourceTree = "<group>"; };
+		D19A6C1F1B5AA49300A0C88A /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
+		D19A6C201B5AA49300A0C88A /* MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +227,8 @@
 				D19A6C1A1B5A9E4700A0C88A /* WeatherObject.m */,
 				D19A6C1C1B5A9E7100A0C88A /* Coord.h */,
 				D19A6C1D1B5A9E7100A0C88A /* Coord.m */,
+				D19A6C1F1B5AA49300A0C88A /* MainObject.h */,
+				D19A6C201B5AA49300A0C88A /* MainObject.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 				D19A6C0D1B5A9A9100A0C88A /* InCodeMappingProvider.m in Sources */,
 				D19A6BA71B5A999E00A0C88A /* Start.m in Sources */,
 				D19A6BEA1B5A9A8800A0C88A /* SBJsonStreamWriterState.m in Sources */,
+				D19A6C211B5AA49300A0C88A /* MainObject.m in Sources */,
 				D19A6BE31B5A9A8800A0C88A /* SBJsonParser.m in Sources */,
 				D19A6BEC1B5A9A8800A0C88A /* SBJsonUTF8Stream.m in Sources */,
 				D19A6C121B5A9AC800A0C88A /* Parser.m in Sources */,

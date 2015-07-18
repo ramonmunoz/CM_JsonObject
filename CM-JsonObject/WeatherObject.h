@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "Coord.h"
+#import "MainObject.h"
 
 @interface WeatherObject : NSObject
-@property (nonatomic) Coord *coord;
-@property (nonatomic) int   ID;
-@property (nonatomic) NSString   *name;
-
+@property (nonatomic) Coord         *coord;
+@property (nonatomic) int           ID;
+@property (nonatomic) NSString      *name;
+@property (nonatomic) MainObject    *main;
 @end

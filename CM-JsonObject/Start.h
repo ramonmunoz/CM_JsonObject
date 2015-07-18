@@ -14,5 +14,17 @@
 @interface Start : UIViewController
 @property (nonatomic,strong)    Declarations            *Declarations;
 @property (nonatomic,strong)    Parser                  *Parser;
+
+//Objects
+@property (strong, nonatomic) IBOutlet UILabel *lblTemp;
+@property (strong, nonatomic) IBOutlet UILabel *lblTempMax;
+@property (strong, nonatomic) IBOutlet UILabel *lblTempMin;
+@property (strong, nonatomic) IBOutlet UILabel *lblPressure;
+@property (strong, nonatomic) IBOutlet UILabel *lblHumidity;
+
+//Actions
+- (IBAction)btnGetDataPressed:(id)sender;
+
+
 @end
 
