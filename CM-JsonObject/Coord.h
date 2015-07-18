@@ -1,5 +1,5 @@
 //
-//  Parser.h
+//  Coord.h
 //  CM-JsonObject
 //
 //  Created by Walter Gonzalez Domenzain on 18/07/15.
@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Declarations.h"
 
-@interface Parser : NSObject
-+ (WeatherObject *)parseWeatherObject;
+@interface Coord : NSObject
+@property (nonatomic) float lon;
+@property (nonatomic) float lat;
 @end
