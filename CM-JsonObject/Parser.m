@@ -9,5 +9,13 @@
 #import "Parser.h"
 
 @implementation Parser
-
++ (WeatherObject *)parseWeatherObject {
+    //check for valid value
+    if(mjsonWeather!=nil){
+        // Using ObjectMapper Directly
+        WeatherObject *weatherObject         = [[ObjectMapper sharedInstance] objectFromSource:mjsonWeather toInstanceOfClass:[WeatherObject class]];
+        return weatherObject;
+    }
+    return nil;
+}
 @end

@@ -10,6 +10,8 @@
 
 #define nURLWeather     @"http://api.openweathermap.org/data/2.5/weather?"
 
+NSDictionary    *mjsonWeather;
+WeatherObject   *mWeatherObject;
 @implementation Declarations
 /**********************************************************************************************/
 #pragma mark - Particular methods

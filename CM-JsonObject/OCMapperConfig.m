@@ -20,6 +20,14 @@
     [[ObjectMapper sharedInstance] setLoggingProvider:commonLoggingProvider];
     
     /******************* Any custom mapping would go here **********************/
+    
+    // Map from key 'posTables' to property 'posTables' of type 'LeagueTable' which is a property of 'LeagueTables' class
+    [inCodeMappingProvider mapFromDictionaryKey:@"coord"
+                                  toPropertyKey:@"coord"
+                                 withObjectType:[Coord class]
+                                       forClass:[WeatherObject class]];
+    
+
 
 }
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "Start.h"
+#define nUagLat 20.695306
+#define nUagLng -103.418190
 
 @interface Start ()
 
@@ -16,12 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self initData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void)initData {
+    mjsonWeather    = [Declarations getWeather:nUagLat and:nUagLng];
+    mWeatherObject  = [Parser parseWeatherObject];
 }
 
 @end
