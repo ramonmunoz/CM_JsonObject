@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Parser.m
 //  CM-JsonObject
 //
 //  Created by Walter Gonzalez Domenzain on 18/07/15.
 //  Copyright (c) 2015 Smartplace. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Parser.h"
 
-@interface ViewController : UIViewController
-
+@implementation Parser
 
 @end
-
